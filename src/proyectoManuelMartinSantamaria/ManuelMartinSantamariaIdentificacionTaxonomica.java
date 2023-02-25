@@ -7,4 +7,10 @@ public class ManuelMartinSantamariaIdentificacionTaxonomica {
 		this.genero = genero;
 		this.hobbie = hobbie;
 	}
+	public void setFamilia(String familia) {
+		this.familia = familia;
+	}
 }
+
+
+
