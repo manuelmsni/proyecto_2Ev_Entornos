@@ -1,11 +1,11 @@
 package proyectoManuelMartinSantamaria;
 
 public class ManuelMartinSantamariaIdentificacionTaxonomica {
-	private String familia, genero, hobbie;
-	public ManuelMartinSantamariaIdentificacionTaxonomica(String familia, String genero, String hobbie) {
+	private String familia, genero, hobby;
+	public ManuelMartinSantamariaIdentificacionTaxonomica(String familia, String genero, String hobby) {
 		this.familia = familia;
 		this.genero = genero;
-		this.hobbie = hobbie;
+		this.hobby = hobby;
 	}
 	public void setFamilia(String familia) {
 		this.familia = familia;
@@ -19,11 +19,11 @@ public class ManuelMartinSantamariaIdentificacionTaxonomica {
 	public String getGenero() {
 		return genero;
 	}
-	public void setHobbie(String hobbie) {
-		this.hobbie = hobbie;
+	public void setHobby(String hobby) {
+		this.hobby = hobby;
 	}
-	public String getHobbie() {
-		return hobbie;
+	public String getHobby() {
+		return hobby;
 	}
 }
 
