@@ -10,6 +10,9 @@ public class ManuelMartinSantamariaIdentificacionTaxonomica {
 	public void setFamilia(String familia) {
 		this.familia = familia;
 	}
+	public String getFamilia() {
+		return familia;
+	}
 }
 
 
