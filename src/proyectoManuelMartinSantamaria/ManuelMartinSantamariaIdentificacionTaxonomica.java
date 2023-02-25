@@ -16,6 +16,9 @@ public class ManuelMartinSantamariaIdentificacionTaxonomica {
 	public void setGenero(String genero) {
 		this.genero = genero;
 	}
+	public String getGenero() {
+		return genero;
+	}
 }
 
 
