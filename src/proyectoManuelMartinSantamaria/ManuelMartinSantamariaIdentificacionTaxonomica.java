@@ -25,6 +25,12 @@ public class ManuelMartinSantamariaIdentificacionTaxonomica {
 	public String getHobby() {
 		return hobby;
 	}
+	@SuppressWarnings("unused")
+	private void impimeNombreHobbyX1000() {
+		for(int repeticion = 0; repeticion < 1000; repeticion++) {
+			System.out.println(hobby);
+		}
+	}
 }
 
 
